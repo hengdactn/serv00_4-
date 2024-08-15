@@ -15,13 +15,13 @@ USERNAME=$(whoami)
 HOSTNAME=$(hostname)
 export UUID=${UUID:-'323f5607-f006-4de1-ad9f-979ebcad7ccf'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
-export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
+export NEZHA_PORT=${NEZHA_PORT:-''}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
 export ARGO_DOMAIN=${ARGO_DOMAIN:-''}   
 export ARGO_AUTH=${ARGO_AUTH:-''}
-export VMESS_PORT=${VMESS_PORT:-'40000'}
-export TUIC_PORT=${TUIC_PORT:-'50000'}
-export HY2_PORT=${HY2_PORT:-'60000'}
+export VMESS_PORT=${VMESS_PORT:-'16940'}
+export TUIC_PORT=${TUIC_PORT:-'46448'}
+export HY2_PORT=${HY2_PORT:-'25318'}
 export CFIP=${CFIP:-'www.visa.com.tw'} 
 export CFPORT=${CFPORT:-'443'} 
 
